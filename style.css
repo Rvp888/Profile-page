@@ -1032,6 +1032,254 @@
 
 
 
+/*=========================================== Responsive-Part =========================================================================*/
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+    .section-1-container {
+        min-width: 95%;
+    }
+
+    .divs-container {
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width: 912px) {
+
+    #friends-currentCity-btn, #friends-hometown-btn, #friends-following-btn {
+        display: none;
+    }
+
+    #friends-more-btn {
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 820px) {
+
+    .section-1-container {
+        min-width: 100%;
+    }
+
+    .divs-container {
+        width: 95%;
+    }
+
+    .cover-photo {
+        height: 20em;
+    }
+
+    .profile-details-container {
+        padding: 0em 1em;   
+    }
+
+    .profile-details-display {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .profile-details-left-part {
+        flex-direction: column;
+    }
+
+    .profile-pic {             
+        position: absolute;
+        top: -5em;
+        /* position: relative; */
+        margin-right: 0em;
+        cursor: pointer;
+    }
+
+    .profile-name {
+        margin-top: 7em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-details-right-part {
+        align-self: center;
+        margin-bottom: 1em;
+    }
+
+    .profile-name p,.small-imgs {
+        margin-bottom: 0.5em;
+    }
+
+    .about-left-part {
+        width: 45%;
+    }
+
+    .about-right-part {
+        width: 55%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 540px) {
+
+    .cover-photo {
+        height: 13em;
+    }
+
+    .add-cover-photo span {
+        display: none;
+    }
+
+    #profile-photos-btn, #profile-videos-btn, #profile-check-ins-btn {
+        display: none;
+    }
+
+    .about-div {
+        flex-direction: column;
+    }
+
+    .about-left-part {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgb(179, 180, 181);
+    }
+
+    .about-right-part {
+        width: 100%;
+        padding: 1.5em 0.8em;
+    }
+
+    .friend-requests, .find-friends, #friends-birthdays-btn, 
+    #friends-work-btn, #friends-college-btn {
+        display: none;
+    }
+
+    .friends-details-div {
+        padding: 0.5em;
+    }
+    
+    .friends-details-left img {
+        width: 4em;
+        height: 4em;
+        margin-right: 0.5em;
+    }
+
+    .image-div {                        
+        width: 50%;
+    }
+
+    .check-ins-details-wrapper {
+        width: 100%;
+    }
+
+    .groups-details-wrapper {
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 420px) {
+
+    .cover-photo {
+        height: 11em;
+    }
+
+    .add-story, .edit-profile {
+        padding: 0.5em 2em;
+    }
+
+    #profile-friends-btn {
+        display: none;
+    }
+
+    #friends-recentlyAdded-btn {
+        display: none;
+    }
+
+    .friends-details-wrapper {            
+        width: 100%;
+    }
+
+    #your-photos, #albums {
+        display: none;
+    }
+
+    #photos-more-btn {
+        display: block;
+    }
+
+    .image-div {                        
+        width: 100%;
+    }
+
+    .image-div img {
+        height: 18em;
+    }
+
+    .friends-div, .photos-div,
+    .videos-div, .check-ins-div, .groups-div {
+        padding: 0.5em;
+    } 
+
+}
+
+
+
+@media screen and (max-width: 380px) {
+
+    .add-story, .edit-profile {
+        padding: 0.5em 1.5em;
+    }
+
+    .add-photos-videos {
+        display: none   ;
+    }
+
+    .groups-details-div,.check-ins-details-div {
+        padding: 0.5em;
+    }
+
+    .groups-details-div img,
+    .check-ins-details-div img {
+        margin-right: 0.5em;
+    }
+
+}
+
+
+@media screen and (max-width: 280px) {
+
+    .add-story, .edit-profile {
+        padding: 0.5em 1em;
+    }
+
+    .add-story p,
+    .edit-profile p {
+        margin-left: 0.5em;
+    }
+
+    #profile-posts-btn {
+        display: none;
+    }
+
+    .groups-details-div img {
+        min-width: 5em;
+        height: 5em;
+    }
+
+}
+
+
+
+
 
 
 
